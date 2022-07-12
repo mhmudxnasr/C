@@ -1,0 +1,363 @@
+/* purple:#a460f9 */
+/* black:#181818 */
+/* White:#ffffff */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #181818;
+    color: #ffffff;
+    font-family: 'Krub', sans-serif;
+}
+.name{
+    font-weight: 700;
+    color:#ffffff;
+    font-size: 25px;
+    transition: .3s;
+    cursor:default;
+}
+.name:hover{
+    color: #9c75cc;
+}
+nav .links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav .links ul li{
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 54px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+nav .links ul li a{
+    text-decoration: none;
+    position: relative;
+    color: #ffffff;
+}
+nav .links ul li a:hover{
+    color: #ffffff;
+}
+nav .links ul li a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    background-color: #9c75cc;
+    top: 21px;
+}
+nav .links ul li a:hover::before {
+    transform: scaleX(1);
+}  
+.sign {
+    background-color: #ffffff;
+    color: #181818;
+    width: 84px;
+    height: 29px;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 2px;
+    transition:  .5s ease;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+.sign:hover{
+    color: #ffffff;
+    background-color: #9c75cc;
+    outline: 0ch;
+    border-radius: 1px;
+}
+#lis{
+    font-size: 35px;
+    font-weight: 900;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+#lis:hover{
+    color: #9c75cc;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px;
+}
+.container .box {
+    position: absolute;
+    right: 0;
+    top: 150.5px;
+    width: 130px;
+    height: 60px;
+    border: 1.3px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.container .box :hover{
+    color: #9c75cc;
+}
+.front{
+    top: 7.3px;
+    position: relative;
+    font-size: 17px;
+    font-weight:900
+}
+.info{
+    font-size: 60px;
+    padding-left: 25px;
+    font-weight: 900;
+    position: absolute;
+    top: 145px;
+
+}
+.dot{
+    color: #9c75cc;
+    position: relative;
+    right: 15px;
+}
+.begi {
+    font-size: 35px;
+    width: 150px;
+    transform: rotate(270deg) translateY(-50%) translateX(50%);
+    position: absolute;
+    left: -9px;
+    top: 415px;
+}
+.become {
+    position: absolute;
+    top: 340px;
+    left: 156px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.pro {
+    margin: 3px;
+    margin-left: 1px;
+}
+.square {
+    width: 8.5px;
+    height: 8.5px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 5px;
+    left: -17px;
+}
+/* .design {
+    width: 250px;
+    height: 250px;
+    background-color: #9c75cc;
+    border-radius: 90%;
+    position: absolute;
+    left: 39%;
+    top: 240px;
+} */
+.photo {
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 104px;
+    right: 620px;
+    transition: 0.3s ease;
+}
+.photo:hover{
+    width: 250px;
+    overflow: hidden    ;
+}
+.subtitle {
+    position: absolute;
+    left: 1000px;
+    top: 245px;
+}
+.xcx{
+    font-size: 25px;
+}
+.xsa{
+    font-size: 25px;
+}
+.but {
+    position: absolute;
+    right: 245px;
+    bottom: 240px;
+}
+.readmore{
+    top: 0;
+    right: -140px;
+    position: absolute;
+}
+.sss {
+    background-color: #9c75cc;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: transform .3s ease-in;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    border: 0;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.sss:hover{
+    background-color: #181818;
+    color: #ffffff;
+    outline: 0ch;
+    font-family: 'Oswald', sans-serif;
+}
+.ssss {
+    background-color: #181818;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: transform .3s ease-in;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    border: 0;
+    transition: 0.3s ease;
+}
+.ssss:hover{
+    background-color: #9c75cc;
+    color: #ffffff;
+    outline: 0ch;
+    font-family: 'Oswald', sans-serif;
+}
+#sda {
+    position: relative;
+    left: 820px;
+    top: 345px;
+    font-size: 60px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+#sda:hover{
+    color:#9c75cc;
+}
+#dsa {
+    position: relative;
+    top: 286px;
+    font-size: 60px;
+    left: 360px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+#dsa:hover{
+    color:#9c75cc;
+}
+footer .bcg {
+    width: 100%;
+    height: 142px;
+    box-shadow: 20px 20px 20px 30px #141414;
+    position: fixed;
+    bottom: 0;
+    background-color: #181818;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.c4 {
+    padding: 10px;
+    width: calc(100%/3);
+    height: 100%;
+    position: absolute;
+    left: 99px;
+    top: 19px;
+}
+.c {
+    color: #9c75cc;
+    font-size: 37px;
+    position: absolute;
+    top: 28px;
+}
+.cc {
+    position: absolute;
+    top: 26px;
+    left: 40px;
+    font-size: 40px;
+}
+.ccc {
+    position: absolute;
+    top: 32px;
+    left: 122px;
+    font-size: 17px;
+}
+.cccc{
+    font-family: 'Oswald', sans-serif;
+}
+.b4 {
+    padding: 10px;
+    width: calc(100%/3);
+    height: 100%;
+    position: absolute;
+    left: 524px;
+    top: 19px;
+}
+.b {
+    color: #9c75cc;
+    font-size: 37px;
+    position: absolute;
+    top: 28px;
+}
+.bb {
+    position: absolute;
+    top: 26px;
+    left: 40px;
+    font-size: 40px;
+}
+.bbb {
+    position: absolute;
+    top: 32px;
+    left: 122px;
+    font-size: 17px;
+}
+.bbbb {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.a4 {
+    padding: 10px;
+    width: calc(100%/3);
+    height: 100%;
+    position: absolute;
+    left: 998px;
+    top: 19px;
+}
+.a {
+    color: #9c75cc;
+    font-size: 37px;
+    position: absolute;
+    top: 28px;
+}
+.aa {
+    position: absolute;
+    top: 26px;
+    left: 40px;
+    font-size: 40px;
+}
+.aaa {
+    position: absolute;
+    top: 32px;
+    left: 156px;
+    font-size: 17px;
+}
+.aaaa {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
